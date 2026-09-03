@@ -27,15 +27,6 @@ author:
   # Social media
   twitter          : "@junteng88716710"
 
-# Publication Category
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
-
 # Site Settings
 teaser                   :
 breadcrumbs              : false
@@ -120,11 +111,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections - only keeping pages collection
+# Collections - only pages collection for manual pages
 collections:
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false
 
 # Defaults
 defaults:
@@ -135,15 +125,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
 
 # Sass/SCSS
 sass:
