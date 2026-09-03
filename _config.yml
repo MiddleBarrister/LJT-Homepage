@@ -11,7 +11,7 @@ repository               : "MiddleBarrister/LJT-Homepage"
 
 # Site Author
 author:
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "Junteng Liu"
   bio              : "First-year PhD candidate at HKUST NLP Group working on natural language processing and machine learning. Research interests include LLM Reasoning, Reinforcement Learning, Hallucination in Vision-Language Models, and LLM truthfulness and interpretability."
   location         : "Hong Kong"
@@ -111,14 +111,13 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections - only pages collection for manual pages
+# Collections
 collections:
   publications:
     output: false
 
 # Defaults
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
