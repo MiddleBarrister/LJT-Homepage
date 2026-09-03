@@ -21,6 +21,15 @@ https://MiddleBarrister.github.io/LJT-Homepage
 3. Under "Source", select the `master` branch
 4. Click "Save"
 5. Wait a few minutes for the site to build
+6. Access your site at https://MiddleBarrister.github.io/LJT-Homepage
+
+### Adding a Profile Picture
+
+The site requires a profile picture to display in the sidebar. To add one:
+
+1. Prepare a square image (recommended size: 200x200 pixels or higher)
+2. Name it `profile.png`
+3. Upload it to the `images/` directory in the repository
 
 ### Local Development
 
@@ -46,52 +55,82 @@ The site configuration is in `_config.yml`. Key settings:
 
 The site contains the following pages:
 
-- [**Homepage** (`/`)](https://MiddleBarrister.github.io/LJT-Homepage/): Introduction and overview
+- [**Homepage** (`/`)](https://MiddleBarrister.github.io/LJT-Homepage/): Introduction, bio, research interests, news, and contact links
 - [**About**](https://MiddleBarrister.github.io/LJT-Homepage/about/): Personal information, academic background, research experience, skills, awards, contact details, and complete publications list
 
 ## Content Structure
 
+### Homepage (`index.md`)
+
+The homepage features:
+- Profile section with name and tagline
+- Biography with research focus
+- Research interests with descriptions
+- Recent news/milestones
+- Contact information links
+- Link to the About page for more details
+
 ### About Page (`about.md`)
 
-The about page contains:
-- Personal biography
-- Research interests
-- Academic background (Ph.D. at HKUST, B.Eng. at SJTU)
-- Research experience (MINIMAX, Tencent WXG, Shanghai AI Lab)
-- Complete publications list (6 publications from 2023-2025)
-- Skills (programming languages, frameworks, languages)
-- Awards (Zhiyuan Honor Scholarship)
-- Contact information (email, GitHub, Google Scholar, X/Twitter)
+The about page contains all personal information:
 
-### Publications
+**Personal Details:**
+- Full name (Junteng Liu / 刘俊腾)
+- Email: jliugi@connect.ust.hk
+- GitHub: Vicent0205
+- Google Scholar profile
+- X (Twitter): @junteng88716710
 
-All publications are listed in the About page. The publication list includes:
+**Academic Background:**
+- Ph.D. in Computer Science (2024-Present) at Hong Kong University of Science and Technology (HKUST)
+- B.Eng. in Computer Science and Technology (2020-2024) at Shanghai Jiao Tong University (SJTU)
 
-**2025:**
-- SynLogic (First author)
-- On the Perception Bottleneck of VLMs (First author)
+**Research Interests:**
+- LLM Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models (VLM)
+- LLM Truthfulness and Interpretability
 
-**2024:**
-- On the Universal Truthfulness Hyperplane (First author, EMNLP 2024)
-- In-Context Sharpness as Alerts (Co-author, ICML 2024)
+**Research Experience:**
+- Research Intern at MINIMAX (February 2025 - Present)
+- Research Intern at Tencent WXG (June 2024 - September 2024), advised by Zifei Shan
+- Research Intern at Shanghai AI Lab (June 2023 - December 2023), advised by Prof. Yu Cheng
 
-**2023:**
-- C-Eval (Co-author, NeurIPS 2023)
-- Composing Parameter-Efficient Modules (Co-author, NeurIPS 2023)
+**Publications (6 total):**
+
+2025:
+- SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond (First author)
+- On the Perception Bottleneck of VLMs for Chart Understanding (First author)
+
+2024:
+- On the Universal Truthfulness Hyperplane Inside LLMs (First author, EMNLP 2024)
+- In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation (Co-author, ICML 2024)
+
+2023:
+- C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models (Co-author, NeurIPS 2023)
+- Composing Parameter-Efficient Modules with Arithmetic Operations (Co-author, NeurIPS 2023)
+
+**Skills:**
+- Programming Languages: Python, C++, MATLAB
+- Frameworks: PyTorch, TensorFlow, Hugging Face
+- Languages: English (Fluent), Chinese (Native)
+
+**Awards:**
+- Zhiyuan Honor Scholarship, Shanghai Jiao Tong University (2023-2024)
 
 ## Features
 
 - Responsive design using the "default" theme
-- Publication list with conference annotations
+- Publication list with conference annotations and co-authors
 - SEO optimization
 - Social media integration (GitHub, X/Twitter, Google Scholar)
 - Clean, academic-focused layout
+-左侧栏作者信息展示
 
 ## Required Files
 
-For the site to display correctly, you need to add:
+For the site to display correctly:
 
-1. **Profile Picture**: Add a profile image as `images/profile.png`
+1. **Profile Picture**: Add a profile image as `images/profile.png` (square image recommended)
 
 ## Contact
 
@@ -122,7 +161,26 @@ For the site to display correctly, you need to add:
 All information on this site is sourced from the memory graph, containing:
 - Personal details (name, email, social media)
 - Academic background (Ph.D. and B.Eng. programs)
-- Research experience (3 internships)
-- Publications (6 papers from 2023-2025)
+- Research experience (3 internships with advisors)
+- Publications (6 papers from 2023-2025 with full details)
 - Skills and awards
 - Contact information
+
+## Repository Structure
+
+```
+LJT-Homepage/
+├── _config.yml          # Site configuration
+├── index.md             # Homepage
+├── about.md             # About page with all info and publications
+├── README.md            # Documentation
+├── .nojekyll            # GitHub Pages Jekyll flag
+├── images/              # Image assets (add profile.png)
+├── _pages/              # Page templates (if needed)
+├── files/               # File uploads
+└── ...
+```
+
+## License
+
+MIT License (from original template)
