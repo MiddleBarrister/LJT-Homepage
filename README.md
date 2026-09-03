@@ -8,11 +8,29 @@ This website is built using the [Academic Pages](https://github.com/academicpage
 
 ## Setup
 
-The site is configured to be hosted on GitHub Pages at:
+The site is configured for GitHub Pages at:
 
 ```
 https://MiddleBarrister.github.io/LJT-Homepage
 ```
+
+### Enabling GitHub Pages
+
+1. Go to the repository settings: https://github.com/MiddleBarrister/LJT-Homepage/settings
+2. Scroll down to the "GitHub Pages" section
+3. Under "Source", select the `master` branch
+4. Click "Save"
+5. Wait a few minutes for the site to build
+
+### Local Development
+
+To run the site locally for testing:
+
+1. Install Ruby and Bundler
+2. Clone the repository
+3. Run `bundle install` to install dependencies
+4. Run `bundle exec jekyll serve -l -H localhost` to start the local server
+5. Visit `http://localhost:4000/LJT-Homepage`
 
 ## Configuration
 
@@ -20,38 +38,60 @@ The site configuration is in `_config.yml`. Key settings:
 
 - **Name**: Junteng Liu
 - **Title**: Junteng Liu - Personal Website
-- **URL**: https://MiddleBarrister.github.io/LJT-Homepage
+- **URL**: https://MiddleBarrister.github.io (domain only)
+- **Base URL**: /LJT-Homepage (project path)
 - **Description**: First-year PhD Candidate at HKUST NLP Group
 
 ## Pages
 
-- [**About**](https://MiddleBarrister.github.io/LJT-Homepage/about/): Personal information, academic background, research experience, skills, awards, contact information, and publications list
+The site contains the following pages:
 
-## Local Development
+- [**Homepage** (`/`)](https://MiddleBarrister.github.io/LJT-Homepage/): Introduction and overview
+- [**About**](https://MiddleBarrister.github.io/LJT-Homepage/about/): Personal information, academic background, research experience, skills, awards, contact details, and complete publications list
 
-To run the site locally:
+## Content Structure
 
-1. Install dependencies:
-```bash
-bundle install
-```
+### About Page (`about.md`)
 
-2. Run the local server:
-```bash
-bundle exec jekyll serve -l -H localhost
-```
+The about page contains:
+- Personal biography
+- Research interests
+- Academic background (Ph.D. at HKUST, B.Eng. at SJTU)
+- Research experience (MINIMAX, Tencent WXG, Shanghai AI Lab)
+- Complete publications list (6 publications from 2023-2025)
+- Skills (programming languages, frameworks, languages)
+- Awards (Zhiyuan Honor Scholarship)
+- Contact information (email, GitHub, Google Scholar, X/Twitter)
 
-The site will be available at `http://localhost:4000/LJT-Homepage`
+### Publications
+
+All publications are listed in the About page. The publication list includes:
+
+**2025:**
+- SynLogic (First author)
+- On the Perception Bottleneck of VLMs (First author)
+
+**2024:**
+- On the Universal Truthfulness Hyperplane (First author, EMNLP 2024)
+- In-Context Sharpness as Alerts (Co-author, ICML 2024)
+
+**2023:**
+- C-Eval (Co-author, NeurIPS 2023)
+- Composing Parameter-Efficient Modules (Co-author, NeurIPS 2023)
 
 ## Features
 
-- Responsive design
-- Publication list
-- Talks page (if configured)
-- Teaching page (if configured)
-- Portfolio page (if configured)
+- Responsive design using the "default" theme
+- Publication list with conference annotations
 - SEO optimization
-- Social media integration
+- Social media integration (GitHub, X/Twitter, Google Scholar)
+- Clean, academic-focused layout
+
+## Required Files
+
+For the site to display correctly, you need to add:
+
+1. **Profile Picture**: Add a profile image as `images/profile.png`
 
 ## Contact
 
@@ -76,3 +116,13 @@ The site will be available at `http://localhost:4000/LJT-Homepage`
 - Research Intern at MINIMAX (February 2025 - Present)
 - Research Intern at Tencent WXG (June 2024 - September 2024)
 - Research Intern at Shanghai AI Lab (June 2023 - December 2023)
+
+## Memory Data Source
+
+All information on this site is sourced from the memory graph, containing:
+- Personal details (name, email, social media)
+- Academic background (Ph.D. and B.Eng. programs)
+- Research experience (3 internships)
+- Publications (6 papers from 2023-2025)
+- Skills and awards
+- Contact information
