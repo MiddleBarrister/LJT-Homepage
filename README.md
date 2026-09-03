@@ -6,6 +6,34 @@ Personal website for Junteng Liu (刘俊腾), first-year PhD candidate at HKUST 
 
 This website is built using the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template based on Jekyll and Markdown.
 
+## Quick Start - Enable GitHub Pages
+
+After cloning or pushing these files to your repository:
+
+1. Go to your repository on GitHub
+2. Click on "Settings" tab
+3. Scroll down to "GitHub Pages" section
+4. Under "Source", select branch `master` (or main)
+5. Click "Save"
+
+Your site will be built automatically and available at:
+`https://MiddleBarrister.github.io/LJT-Homepage`
+
+## Manual Steps Required
+
+**You must manually enable GitHub Pages** through the web interface. The Jekyll site will not be served until this step is completed.
+
+### Step-by-step:
+
+1. Navigate to: https://github.com/MiddleBarrister/LJT-Homepage/settings
+2. In the left sidebar, scroll down to "Code and automation"
+3. Click on "Pages"
+4. Under "Build and deployment" > "Source", select `Deploy from a branch`
+5. Under "Branch", select `master` and `/ (root)`
+6. Click "Save"
+
+Wait about 2-3 minutes for the site to build.
+
 ## Setup
 
 The site is configured for GitHub Pages at:
@@ -13,15 +41,6 @@ The site is configured for GitHub Pages at:
 ```
 https://MiddleBarrister.github.io/LJT-Homepage
 ```
-
-### Enabling GitHub Pages
-
-1. Go to the repository settings: https://github.com/MiddleBarrister/LJT-Homepage/settings
-2. Scroll down to the "GitHub Pages" section
-3. Under "Source", select the `master` branch
-4. Click "Save"
-5. Wait a few minutes for the site to build
-6. Access your site at https://MiddleBarrister.github.io/LJT-Homepage
 
 ### Adding a Profile Picture
 
@@ -124,7 +143,7 @@ The about page contains all personal information:
 - SEO optimization
 - Social media integration (GitHub, X/Twitter, Google Scholar)
 - Clean, academic-focused layout
--左侧栏作者信息展示
+- Author profile in left sidebar
 
 ## Required Files
 
