@@ -7,58 +7,67 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+
+* **Ph.D. in Computer Science**, Hong Kong University of Science and Technology, 2024–present.
+  * HKUST NLP Group.
+  * Advisor: Professor Junxian He.
+
+* **B.Eng.**, Shanghai Jiao Tong University, 2020–2024.
+  * Graduated in June 2024.
+
+* **Zhiyuan Honor Scholarship**, Shanghai Jiao Tong University.
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **MINIMAX**, February 2025–present.
+  * Research Intern.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* **Tencent WXG**, June 2024–September 2024.
+  * Research Intern.
+  * Advisor: Zifei Shan.
+
+* **Shanghai AI Lab**, June 2023–December 2023.
+  * Research Intern.
+  * Advisor: Prof. Yu Cheng.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Natural Language Processing.
+* Machine Learning.
+* LLM Reasoning and Reinforcement Learning.
+* Hallucination in Vision-Language Models (VLM).
+* LLM Truthfulness and Interpretability.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+  <ul>
+    <li>
+      <strong>SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond.</strong>
+      arXiv, 2025. First author.
+    </li>
+    <li>
+      <strong>On the Perception Bottleneck of VLMs for Chart Understanding.</strong>
+      arXiv, 2025. First author.
+    </li>
+    <li>
+      <strong>On the Universal Truthfulness Hyperplane Inside LLMs.</strong>
+      EMNLP 2024. First author.
+    </li>
+    <li>
+      <strong>In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation.</strong>
+      ICML 2024. Co-author.
+    </li>
+    <li>
+      <strong>C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models.</strong>
+      NeurIPS 2023. Co-author.
+    </li>
+    <li>
+      <strong>Composing Parameter-Efficient Modules with Arithmetic Operations.</strong>
+      NeurIPS 2023. Co-author.
+    </li>
+  </ul>
